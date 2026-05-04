@@ -1,0 +1,22 @@
+# Configuración específica del avatar.
+id: slide-architect                # slug único en todo el multiverso — lo lee el compilador de avatar-lang (regla 1)
+sistema-operado:
+  # path → config.local.yaml (no versionado). Plantilla: config.local.yaml.example
+  # El sistema-operado del slide-architect es atípico: el propio esqueleto vivo
+  # de la presentación actual (un .md/.yml dentro del propio avatar bajo
+  # avatar-mind/scaa/[estado-actual]/presentaciones/). Decisión análoga a la
+  # DB4 del multiverse-manager — el sistema-operado no es código externo, es
+  # un artefacto interno gestionado por el propio avatar.
+inherits-from: [essence]           # avatar-wide. "extends": heredo mds del destino y los uso tal cual
+composes: []                       # avatar-wide. "implements": reuso forma/contrato del destino, contenido propio
+requires-from: []                  # md-scoped. dependencia causal: el cierre de un md ajeno es input del mío
+capacidades:
+  # Contrato publico del avatar slide-architect (analogia metodos publicos POO).
+  # El avatar NO genera el .pptx final — solo mantiene el esqueleto estructurado
+  # (secciones -> slides -> bullets/notas) en markdown/yaml para que el humano
+  # (o un avatar futuro) lo materialice en PowerPoint.
+  - "recibir un tema y devolver un esqueleto inicial de presentacion con secciones propuestas"
+  - "recibir bloques de informacion tematica (texto natural, datos, citas) y ubicarlos en el esqueleto vigente, ampliandolo o reordenandolo si es necesario"
+  - "entregar el esqueleto vigente en formato markdown estructurado para que el humano lo desarrolle en PowerPoint"
+  - "recibir una peticion de reorganizacion (mover seccion, fusionar slides, cambiar orden) y devolver el esqueleto actualizado preservando el contenido"
+# archived: false                  # opcional, default false. Ver avatar-lang.md § archived (regla 17)

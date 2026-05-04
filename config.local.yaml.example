@@ -1,0 +1,9 @@
+# Plantilla. Copia este fichero a `config.local.yaml` y rellena con tu path local.
+# `config.local.yaml` está en .gitignore — cada colaborador tiene el suyo.
+#
+# El sistema-operado de slide-architect es atípico: vive dentro del propio
+# avatar (avatar-mind/scaa/[estado-actual]/presentaciones/). El path por
+# defecto apunta ahí; cada colaborador puede sobreescribirlo si trabaja con
+# una ubicación distinta.
+sistema-operado:
+  path: ""   # ruta absoluta a la carpeta de presentaciones (típicamente <avatar-root>/avatar-mind/scaa/[estado-actual]/presentaciones)
