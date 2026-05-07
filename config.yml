@@ -1,13 +1,14 @@
 # Configuración específica del avatar.
-id: slide-architect                # slug único en todo el multiverso — lo lee el compilador de avatar-lang (regla 1)
-sistema-operado:
-  # path → config.local.yaml (no versionado). Plantilla: config.local.yaml.example
+uuid: 019e046f-51c3-7f6b-89ff-2d22b369461e
+name: slide-architect
+sistema-operado: null
   # El sistema-operado del slide-architect es atípico: el propio esqueleto vivo
   # de la presentación actual (un .md/.yml dentro del propio avatar bajo
   # avatar-mind/scaa/[estado-actual]/presentaciones/). Decisión análoga a la
   # DB4 del multiverse-manager — el sistema-operado no es código externo, es
   # un artefacto interno gestionado por el propio avatar.
-inherits-from: [essence]           # avatar-wide. "extends": heredo mds del destino y los uso tal cual
+inherits-from:
+  - 019d8dc4-d3e0-76ca-b047-70e2b5b71674   # essence
 composes: []                       # avatar-wide. "implements": reuso forma/contrato del destino, contenido propio
 requires-from: []                  # md-scoped. dependencia causal: el cierre de un md ajeno es input del mío
 capacidades:
