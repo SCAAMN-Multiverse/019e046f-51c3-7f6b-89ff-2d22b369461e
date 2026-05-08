@@ -21,3 +21,4 @@ capacidades:
   - "entregar el esqueleto vigente en formato markdown estructurado para que el humano lo desarrolle en PowerPoint"
   - "recibir una peticion de reorganizacion (mover seccion, fusionar slides, cambiar orden) y devolver el esqueleto actualizado preservando el contenido"
 # archived: false                  # opcional, default false. Ver avatar-lang.md § archived (regla 17)
+status: active
