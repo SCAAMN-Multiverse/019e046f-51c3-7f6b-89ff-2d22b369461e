@@ -27,7 +27,7 @@
 
 ### Bloque 5 — Ahorros: ejemplo onboarding
 
-10. **Cifras de onboarding** (3 min). Onboarding actual 2-3 meses (líderes hasta 6); coste reemplazo 15-25 k€; Plexus 4.600 personas × rotación 15-25% = **690-1.150 reemplazos/año**; ahorro **5,2-14 M€/año** si onboarding al 50%; **ROI 2,1 M€/año conservador, 3,5× realista**, payback <1 trimestre. *(Estudio de mercado `departamento-ia` para Juan.)*
+10. **Cifras de onboarding** (3 min). Onboarding actual 2-3 meses (líderes hasta 6); coste reemplazo 15-25 k€; Plexus 4.600 personas × rotación 15-25% = **690-1.150 reemplazos/año**; ahorro **5,2-14 M€/año** si onboarding al 50%; **ROI 2,1 M€/año conservador, 3,5× realista**, payback <1 trimestre. *(Estudio de mercado `departamento-ia [019ddff5-8da8-7de9-bb1c-544df344a206]` para Juan.)*
 
 ### Bloque 6 — Productos hoy vs productos posibles
 

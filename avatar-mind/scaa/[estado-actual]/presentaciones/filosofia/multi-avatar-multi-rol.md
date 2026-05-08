@@ -4,7 +4,7 @@ No un avatar omnisciente, sino **muchos avatares especializados por rol** (front
 
 ## Por qué importa
 
-Replica la división de roles humana en consultoría sin perder coherencia: cada avatar profundiza en su dominio, los managers (multiverse-manager, manager) coordinan. Es la respuesta a "cómo escala el aparato más allá de un solo proyecto".
+Replica la división de roles humana en consultoría sin perder coherencia: cada avatar profundiza en su dominio, los managers (multiverse-manager [019dedce-5e50-7559-8b65-b99c3705caec], manager) coordinan. Es la respuesta a "cómo escala el aparato más allá de un solo proyecto".
 
 ## Anécdotas que lo sostienen
 

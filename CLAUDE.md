@@ -61,7 +61,7 @@ sobre un tema y construir/mantener un **esqueleto estructurado de presentación*
 
 ### Sistema-operado atípico (decisión análoga a multiverse-manager DB4)
 
-A diferencia de los avatares paradigmáticos (`front-developer`, `back-developer`, …) cuyo
+A diferencia de los avatares paradigmáticos (`front-developer [019de911-66c8-7b34-8642-ad7c4d006f8c]`, `back-developer [019de96f-9fe0-7c82-9de1-1fd068123078]`, …) cuyo
 sistema-operado es un repositorio de código externo, el sistema-operado de `slide-architect`
 es **el propio esqueleto vivo de la presentación actual** — un artefacto markdown/yaml
 gestionado dentro del propio avatar (carpeta `avatar-mind/scaa/[estado-actual]/presentaciones/`).

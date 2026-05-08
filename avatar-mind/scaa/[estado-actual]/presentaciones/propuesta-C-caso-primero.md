@@ -4,7 +4,7 @@
 
 ## Slides
 
-1. **Esto está funcionando hoy** (5 min). Demo o captura del aparato SCAAMN operando en W2M (proyecto Disputas). Dashboard tren-del-release con 8 agentes coordinados. Caso real, no maqueta. Cifras de uso reales del último mes.
+1. **Esto está funcionando hoy** (5 min). Demo o captura del aparato SCAAMN operando en W2M (proyecto Disputas). Dashboard tren-del-release [019de212-0508-78b4-af1b-55fc84bbde14] con 8 agentes coordinados. Caso real, no maqueta. Cifras de uso reales del último mes.
 2. **Cómo se ve la operativa diaria** (4 min). Despliegue a producción autónomo desde la intranet. Diagnóstico de fallos sin pasar por el líder técnico. Tres iniciativas vivas: Portfolio, Disputas, World Unite Academy.
 3. **¿Y la IA dónde está?** (5 min). Triada executor/planner/checker. avatar-lang como lenguaje formal con compilador de 4 pases (Parse/Link/Validate/Index) y 16 reglas. Política rectora: *"si la condición merece atención, debe ser hard-fail; si no merece bloquear, no merece notificarse"*.
 4. **Por qué hizo falta inventar avatar-lang** (4 min). El estado interno de un agente LLM es opaco — mismo problema que FIPA-BDI años 2000 con agentes BDI. Solución Evolution-Art: estados externos públicos en grafo BPMN, verificación runtime con consenso humano-avatar.
