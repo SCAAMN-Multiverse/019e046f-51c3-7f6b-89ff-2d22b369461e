@@ -17,17 +17,17 @@ en `[versiones-antiguas]/` (o archivadas como retroceso).
 
 **ANTES de arrancar cualquier trabajo, lee:**
 
-1. **`../../scaamn-essence/avatar-mind/narrative/[estado-actual]/life-cycle/procesos/proceso-idea-a-release.md`** — cómo trabajar (idea → release, end-to-end). No es opcional.
-2. **`../../scaamn-essence/CLAUDE.md`** — reglas universales que aplican a todos los avatares (incluida la política de memoria).
+1. **`../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/narrative/[estado-actual]/life-cycle/procesos/proceso-idea-a-release.md`** — cómo trabajar (idea → release, end-to-end). No es opcional.
+2. **`../019d8dc4-d3e0-76ca-b047-70e2b5b71674/CLAUDE.md`** — reglas universales que aplican a todos los avatares (incluida la política de memoria).
 3. **`./config.yml`** — qué sistema-operado opera este avatar.
 4. **Ciclos abiertos** — mira si hay carpetas dentro de `avatar-mind/<capa>/[evolucion]/[versiones-futuras]/[en-desarrollo]/` en alguna de las tres capas. Si las hay, son trabajo en curso: lee sus `.md` (`idea.md`, `--explore--.md`, `--plan--.md`, `--do--.md`…) para reconstruir el contexto de trabajo vivo antes de actuar. **Crítico tras `/clear` o al reabrir el avatar en otra sesión.**
 
-**Si tus tres capas `[estado-actual]/` están vacías** (solo `.gitkeep`) y el humano te pide estudiar el sistema-operado / arrancar / aprender el proyecto, no improvises: ejecuta el proceso de **aprendizaje inicial** en `../../scaamn-essence/avatar-mind/narrative/[estado-actual]/life-cycle/procesos/aprendizaje-inicial.md`. Es un ciclo completo (EXPLORE → RELEASE) que rellena las tres capas hasta `0.1.0` cada una. Sin él, la mente queda asimétrica.
+**Si tus tres capas `[estado-actual]/` están vacías** (solo `.gitkeep`) y el humano te pide estudiar el sistema-operado / arrancar / aprender el proyecto, no improvises: ejecuta el proceso de **aprendizaje inicial** en `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/narrative/[estado-actual]/life-cycle/procesos/aprendizaje-inicial.md`. Es un ciclo completo (EXPLORE → RELEASE) que rellena las tres capas hasta `0.1.0` cada una. Sin él, la mente queda asimétrica.
 
 Si el trabajo toca estructura canónica, además:
 
-- `../../scaamn-essence/avatar-mind/scaa/[estado-actual]/structure/scaa-structure.md`
-- `../../scaamn-essence/avatar-mind/scaa/[estado-actual]/life-cycle/lifecycle.md`
+- `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/scaa/[estado-actual]/structure/scaa-structure.md`
+- `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/scaa/[estado-actual]/life-cycle/lifecycle.md`
 
 ## Tu estructura
 
@@ -49,7 +49,7 @@ de su propio estado. `avatar-mind/` es representación derivada — puede ir des
 2. Al arrancar un ciclo (especialmente EXPLORE), **contrastar `avatar-mind/` con el
    sistema-operado** y reconciliar divergencias antes de planificar sobre el espejo.
 
-Detalle en `../../scaamn-essence/avatar-mind/scaa/[estado-actual]/structure/scaa-structure.md`
+Detalle en `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/scaa/[estado-actual]/structure/scaa-structure.md`
 § "Sistema-operado y avatar-mind — quién dice la verdad".
 
 ## Sobre este avatar en concreto
