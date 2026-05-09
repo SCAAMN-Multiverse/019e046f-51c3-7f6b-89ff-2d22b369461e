@@ -1,0 +1,52 @@
+#!/bin/sh
+#
+# Pre-commit hook canónico de SCAAMN — corre `npm run check` global.
+#
+# Filosofía: soft-warning-no-corta. La detección de deterioro debe vivir en la
+# puerta natural del workflow (el commit), no en CHECK del próximo ciclo del
+# avatar (que puede tardar días o semanas).
+#
+# Mecánica (tras paso 3 del ciclo `essence-dentro-del-multiverso`, 2026-05-09):
+#   1. Sube por la jerarquía buscando contenedor con `scaamn-multiverse/<ESSENCE_UID>/`
+#      (essence vive como avatar dentro del multiverso, identificada por UID).
+#   2. Si encuentra: invoca `npm run check` desde data-structure de essence.
+#   3. Si no encuentra: falla con mensaje claro. Essence es el motor del avatar
+#      — sin essence, el avatar no opera. Si tienes razón justificada, usa
+#      `git commit --no-verify`.
+#
+# Instalado por: <multiverso>/<ESSENCE_UID>/install-hooks.sh
+# Activado vía: git config core.hooksPath .githooks (per-clone, hay que
+#               correr install-hooks.sh tras cada clone).
+#
+
+ESSENCE_UID="019d8dc4-d3e0-76ca-b047-70e2b5b71674"
+
+dir="$(git rev-parse --show-toplevel)"
+while [ "$dir" != "/" ] && [ -n "$dir" ]; do
+  if [ -d "$dir/scaamn-multiverse/$ESSENCE_UID" ]; then
+    check_dir="$dir/scaamn-multiverse/$ESSENCE_UID/avatar-mind/scaa/[estado-actual]/structure/data-structure"
+    if [ ! -d "$check_dir" ]; then
+      echo "✗ pre-commit: contenedor encontrado en $dir pero data-structure no existe en essence." >&2
+      echo "   Ruta esperada: $check_dir" >&2
+      exit 1
+    fi
+    cd "$check_dir" || exit 1
+    npm run check
+    exit $?
+  fi
+  parent="$(dirname "$dir")"
+  [ "$parent" = "$dir" ] && break
+  dir="$parent"
+done
+
+echo "✗ pre-commit: essence (scaamn-multiverse/$ESSENCE_UID) no encontrado en la jerarquía padre del repo." >&2
+echo "" >&2
+echo "   El hook necesita un contenedor con \`scaamn-multiverse/<ESSENCE_UID>/\`" >&2
+echo "   en algún ancestro del repo para invocar el compilador avatar-lang." >&2
+echo "" >&2
+echo "   Solución canónica: clona el contenedor scaamn/ completo." >&2
+echo "" >&2
+echo "   Excepción justificada (CI/CD, clone aislado puntual): usa" >&2
+echo "   \`git commit --no-verify\` y deja constancia del motivo en el mensaje" >&2
+echo "   del commit." >&2
+exit 1
