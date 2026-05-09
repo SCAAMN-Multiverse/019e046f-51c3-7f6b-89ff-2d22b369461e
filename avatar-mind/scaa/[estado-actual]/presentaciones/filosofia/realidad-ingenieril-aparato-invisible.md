@@ -20,3 +20,15 @@ Es la justificación operativa de SCAAMN entero. Lo que el equipo del humano lle
 - [W2M — Springpack (JVM GC + memoria contenedor)](../historias/w2m-springpack-jvm.md)
 - [W2M — grafos cíclicos en BBDD](../historias/w2m-grafos-ciclicos.md)
 - [Inditex — outage de fin de semana](../historias/inditex-outage-fin-de-semana.md)
+
+```avatar-lang
+@id: realidad-ingenieril-aparato-invisible
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

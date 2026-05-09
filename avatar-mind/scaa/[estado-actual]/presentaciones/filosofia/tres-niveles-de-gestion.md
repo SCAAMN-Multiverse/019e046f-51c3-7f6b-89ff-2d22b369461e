@@ -15,3 +15,15 @@ Evita prometer impactos de IA en planos donde no llega. La IA acelera bien el Ni
 - [BBVA — portfolio y trenes de release](../historias/bbva-portfolio-trenes-release.md)
 - [Comunidad de Madrid — CMMI](../historias/comunidad-madrid-cmmi.md)
 - [Inditex — outage de fin de semana](../historias/inditex-outage-fin-de-semana.md)
+
+```avatar-lang
+@id: tres-niveles-de-gestion
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

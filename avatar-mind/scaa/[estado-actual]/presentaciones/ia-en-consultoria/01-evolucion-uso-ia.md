@@ -37,3 +37,15 @@ Resumen: Aparecen los agentes. Ya no solo completan en línea: aceptan tareas de
 ## 1.4. Fase 4 — Claude Code: la IA actúa sobre el ordenador
 
 Resumen: El asistente (Claude Code) ya no se limita al proyecto: tiene acceso a la CLI del sistema operativo y a servidores **MCP** (Model Context Protocol) que le permiten conectarse a sistemas externos (Gmail, Drive, calendarios, bases de datos, modelos locales, lo que sea). La IA deja de ser asistente y pasa a ser **operador**: ejecuta comandos, lee y escribe ficheros, llama APIs en el contexto real del humano. Es el salto que está cambiando cómo trabajamos hoy.
+
+```avatar-lang
+@id: doc-01-evolucion-uso-ia
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

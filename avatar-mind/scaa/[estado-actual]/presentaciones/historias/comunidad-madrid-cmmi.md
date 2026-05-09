@@ -7,3 +7,15 @@ La C. de Madrid trabaja bajo **CMMI**: modelo de calidad que sustituye el manten
 - [Fricción estructura-cliente](../filosofia/friccion-estructura-cliente.md)
 - [Tres niveles de gestión](../filosofia/tres-niveles-de-gestion.md)
 - [El sustrato cognitivo importa](../filosofia/el-sustrato-cognitivo-importa.md)
+
+```avatar-lang
+@id: comunidad-madrid-cmmi
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

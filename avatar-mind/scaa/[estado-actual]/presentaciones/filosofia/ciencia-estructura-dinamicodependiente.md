@@ -12,3 +12,15 @@ Justifica el versionado tri-temporal (scaa rápido, narrative medio, meta-narrat
 - [Versionado tri-temporal](./versionado-tri-temporal.md)
 - [Velocidad deshace cualquier armonía](./velocidad-deshace-armonia.md)
 - [Sistema-operado fuente de verdad](./sistema-operado-fuente-de-verdad.md)
+
+```avatar-lang
+@id: ciencia-estructura-dinamicodependiente
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

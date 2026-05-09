@@ -10,3 +10,15 @@ Justifica el ciclo evolutivo con `[planes-posibles]` y `[ideas-nuevas]`: mantene
 
 - [Velocidad deshace cualquier armonía](./velocidad-deshace-armonia.md)
 - [Planificación resiliente](./planificacion-resiliente.md)
+
+```avatar-lang
+@id: ciencia-antifragilidad-taleb
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

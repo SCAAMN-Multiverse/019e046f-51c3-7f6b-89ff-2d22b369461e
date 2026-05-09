@@ -11,3 +11,15 @@ El gap entre runtime verification clásica (ejecutor determinista) y la realidad
 - [Estados externos públicos, no internos](./estados-publicos-no-internos.md)
 - [Triada de ejecución](./triada-de-ejecucion.md)
 - [Soft warning no corta](./soft-warning-no-corta.md)
+
+```avatar-lang
+@id: ciencia-runtime-verification-havelund-rosu
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

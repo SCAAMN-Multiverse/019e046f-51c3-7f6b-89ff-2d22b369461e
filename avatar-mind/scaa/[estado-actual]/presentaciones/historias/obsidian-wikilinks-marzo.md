@@ -10,3 +10,15 @@ Finales de marzo de 2025. El humano (con 5 años previos de SharePoint a sus esp
 - [Menos es más](../filosofia/menos-es-mas.md)
 - [Avatar-lang sirve para cualquier proceso](../filosofia/avatar-lang-cualquier-proceso.md)
 - [Elevar en vez de parchear](../filosofia/elevar-en-vez-de-parchear.md)
+
+```avatar-lang
+@id: obsidian-wikilinks-marzo
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

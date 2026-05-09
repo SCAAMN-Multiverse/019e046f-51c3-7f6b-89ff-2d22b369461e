@@ -18,3 +18,15 @@ Si no se nombra esta dualidad explícitamente, el discurso de la presentación s
 - [El sustrato cognitivo importa](./el-sustrato-cognitivo-importa.md)
 - [Estructura dinamicodependiente](./ciencia-estructura-dinamicodependiente.md)
 - [Velocidad deshace cualquier armonía](./velocidad-deshace-armonia.md)
+
+```avatar-lang
+@id: dos-lineas-evolucion-vs-degeneracion
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

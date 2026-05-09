@@ -14,3 +14,15 @@ Resumen: Material de respaldo, no contenido principal de slides. Citado desde **
 ## Tesis derivada
 
 Gracias a esta visión transversal, cuando arrancó SharePoint el humano tenía muy claro **qué meter y qué no meter** en la intranet en cada momento. Por eso hoy la **gestión del proyecto está alineada con la gestión del equipo** (no son dos planos separados, comparten estructura) y ese modo de trabajar está **pactado con el usuario** (cliente acepta cómo se opera). Conecta directamente con la tesis 2.2 (senior dilatado vs junior 150h Java).
+
+```avatar-lang
+@id: apendice-trayectoria
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

@@ -13,3 +13,15 @@ Resuelve la paradoja del contexto: el avatar recuerda con el humano sin enterrar
 ## Anécdotas que lo sostienen
 
 - [Obsidian + Wikilinks — descubrimiento marzo](../historias/obsidian-wikilinks-marzo.md)
+
+```avatar-lang
+@id: versionado-tri-temporal
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

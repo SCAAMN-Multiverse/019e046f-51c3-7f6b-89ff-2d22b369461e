@@ -22,3 +22,15 @@ Estamos con la IA exactamente en la misma fase en la que estaba el cloud antes d
 - [SEPE — migración Struts → Spring + Spring Webflow](../historias/sepe-migracion-struts-spring.md)
 - [Telefónica — procesos SOA, Enterprise Architect](../historias/telefonica-procesos-soa.md)
 - [Inditex — outage de fin de semana, sistemas distribuidos](../historias/inditex-outage-fin-de-semana.md)
+
+```avatar-lang
+@id: analogia-cloud-pre-istio
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

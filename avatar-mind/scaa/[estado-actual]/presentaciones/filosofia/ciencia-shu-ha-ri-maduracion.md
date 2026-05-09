@@ -10,3 +10,15 @@ La maduración del avatar (y del ingeniero que lo opera) no es lineal — es sec
 
 - [Avatar personal derivado](./avatar-personal-derivado.md)
 - [Estructura dinamicodependiente](./ciencia-estructura-dinamicodependiente.md)
+
+```avatar-lang
+@id: ciencia-shu-ha-ri-maduracion
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

@@ -27,3 +27,15 @@ Resumen: Principios rectores que guían las decisiones del aparato. **filosofia-
 ## 6.5. Procesos vivos canónicos
 
 Resumen: Procesos operativos que el aparato ejecuta hoy. **proceso-idea-a-release** (ciclo end-to-end EXPLORE → PLAN → DO → CHECK → RELEASE); **create-avatar**, **extraer-avatar-padre**, **sincronizar-multiverso** (slash-commands homónimos); **evolucionar-essence** (toca el esqueleto canónico de todos los avatares); **aprendizaje-inicial** (onboarding de un avatar nuevo); **instalar-hook-pre-commit**; **operar-repo-no-propio** (protocolo cuando el avatar opera sobre un repo ajeno); **fases base genéricas** explore/plan/do/check/release-base (fuente de verdad del *qué* de cada fase, leídas sin copiar); **procesos GitHub** init-start, init-restart, init-tasks (task-classify/create/prioritize), milestones-export/import, phase-* expuestos como skills github:*; **CHECK → promoción de auto-memoria → avatar-mind** (destilación de memoria estable durante la fase CHECK).
+
+```avatar-lang
+@id: doc-06-aparato-scaamn
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

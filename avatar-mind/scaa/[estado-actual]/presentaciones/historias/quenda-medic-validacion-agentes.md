@@ -8,3 +8,15 @@ Aplicación del **tren-del-release [019de212-0508-78b4-af1b-55fc84bbde14] v7.1**
 - [Multi-avatar / multi-rol](../filosofia/multi-avatar-multi-rol.md)
 - [Estados públicos no internos](../filosofia/estados-publicos-no-internos.md)
 - [Soft warning no corta](../filosofia/soft-warning-no-corta.md)
+
+```avatar-lang
+@id: quenda-medic-validacion-agentes
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

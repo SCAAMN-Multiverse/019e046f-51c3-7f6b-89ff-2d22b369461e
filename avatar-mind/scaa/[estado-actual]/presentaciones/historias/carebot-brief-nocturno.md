@@ -7,3 +7,15 @@ Aplicación del módulo **I+D+i nocturna** del aparato SCAAMN al proyecto CAREBO
 - [Avatar autoconsciente](../filosofia/avatar-autoconsciente.md)
 - [Multi-avatar / multi-rol](../filosofia/multi-avatar-multi-rol.md)
 - [Cascade local-vs-frontier](../filosofia/cascade-local-vs-frontier.md)
+
+```avatar-lang
+@id: carebot-brief-nocturno
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

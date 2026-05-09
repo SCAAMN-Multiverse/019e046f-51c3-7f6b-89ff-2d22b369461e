@@ -7,3 +7,15 @@ Intervención General del Estado, sistema **Sorolla** (gestión económica de po
 - [Realidad ingenieril — el aparato invisible](../filosofia/realidad-ingenieril-aparato-invisible.md)
 - [Elevar en vez de parchear](../filosofia/elevar-en-vez-de-parchear.md)
 - [Analogía cloud antes de Istio](../filosofia/analogia-cloud-pre-istio.md)
+
+```avatar-lang
+@id: sorolla-arquitectura
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

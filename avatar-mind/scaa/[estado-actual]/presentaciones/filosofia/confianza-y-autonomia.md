@@ -14,3 +14,15 @@ Es la condición que PRINCE2 institucionaliza como filosofía explícita (gesti�
 
 - [Inditex — Scrum bien marcado, dinámica manda](../historias/inditex-scrum-dinamica-manda.md)
 - [W2M — David diagnostica fallos sin pasar por humano](../historias/w2m-david-diagnostico-sin-humano.md)
+
+```avatar-lang
+@id: confianza-y-autonomia
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

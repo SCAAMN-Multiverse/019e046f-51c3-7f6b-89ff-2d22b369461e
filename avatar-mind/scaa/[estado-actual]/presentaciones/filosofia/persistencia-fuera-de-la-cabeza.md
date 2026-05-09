@@ -11,3 +11,15 @@ Es la pre-condición de cualquier sistema IA que pretenda asistir la coordinaci�
 - [W2M — SharePoint tres iniciativas](../historias/w2m-sharepoint-tres-iniciativas.md)
 - [W2M — David diagnostica fallos sin pasar por humano](../historias/w2m-david-diagnostico-sin-humano.md)
 - [Inditex — Scrum bien marcado, dinámica manda](../historias/inditex-scrum-dinamica-manda.md)
+
+```avatar-lang
+@id: persistencia-fuera-de-la-cabeza
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

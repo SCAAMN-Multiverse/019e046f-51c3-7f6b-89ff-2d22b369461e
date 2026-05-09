@@ -8,3 +8,15 @@ Un compañero hizo una batería de tests en una rama. No se quería traer entera
 - [Del agente al avatar](../filosofia/del-agente-al-avatar.md)
 - [Soft warning no corta](../filosofia/soft-warning-no-corta.md)
 - [Analogía cloud antes de Istio](../filosofia/analogia-cloud-pre-istio.md)
+
+```avatar-lang
+@id: w2m-cherry-pick-rescatado
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

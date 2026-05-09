@@ -8,3 +8,15 @@ Decisión interna del equipo Plexus en W2M, tomada desde el primer momento: **ce
 - [Persistencia fuera de la cabeza](../filosofia/persistencia-fuera-de-la-cabeza.md)
 - [Sistema-operado como fuente de verdad](../filosofia/sistema-operado-fuente-de-verdad.md)
 - [Avatar personal derivado](../filosofia/avatar-personal-derivado.md)
+
+```avatar-lang
+@id: w2m-sharepoint-tres-iniciativas
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

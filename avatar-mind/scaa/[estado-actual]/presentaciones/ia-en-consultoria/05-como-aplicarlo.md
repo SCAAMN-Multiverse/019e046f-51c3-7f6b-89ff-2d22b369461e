@@ -122,3 +122,15 @@ Resumen: Claude rinde para **tareas acotadas** cuando tú, como ingeniero, sabes
 ## 5.6. Palancas concretas de aplicación de IA
 
 Resumen: [PLACEHOLDER] Pendiente de rellenar. Aquí se describirán los casos de uso concretos, metodología y herramientas IA específicas que el equipo va a aplicar sobre el estado de partida (5.1 + 5.2 + 5.3), asumiendo el dilema estructural identificado en 5.4 y las capacidades/limitaciones reales de los agentes descritas en 5.5, para resolver los problemas de coordinación del Punto 3. La respuesta sintética del equipo a la fusión de los dos dilemas (cognitivo humano + dilema del operador del agente) es el aparato SCAAMN del Punto 6.
+
+```avatar-lang
+@id: doc-05-como-aplicarlo
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

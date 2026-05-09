@@ -10,3 +10,15 @@ Resuelve la "fatiga del prompt" — el operador humano se desbordaba escribiendo
 
 - [Obsidian + Wikilinks — descubrimiento marzo](../historias/obsidian-wikilinks-marzo.md)
 - [Akdong — migración 10 días enero](../historias/akdong-migracion-10-dias.md)
+
+```avatar-lang
+@id: lazy-context-mds-composables
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

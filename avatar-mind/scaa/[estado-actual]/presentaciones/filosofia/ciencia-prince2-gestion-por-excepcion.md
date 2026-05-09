@@ -12,3 +12,15 @@ La gestión por excepción institucionaliza confianza + autonomía como filosof�
 - [Triada de ejecución](./triada-de-ejecucion.md)
 - [Tres niveles de gestión](./tres-niveles-de-gestion.md)
 - [Planificación resiliente](./planificacion-resiliente.md)
+
+```avatar-lang
+@id: ciencia-prince2-gestion-por-excepcion
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

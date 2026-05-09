@@ -9,3 +9,15 @@ La solución completa requirió **cambiar el recolector de basura de la JVM** y 
 ## Grafos cíclicos en BBDD W2M
 
 Hoteles con **múltiples IDs en distintas plataformas** (datos no actualizados consistentemente) producían **bucles infinitos** al recorrerse el grafo. Resuelto con **algoritmos específicos**. El departamento de arquitectura cliente quedó "alucinado" — y por eso tienen muy buen concepto del equipo: el humano cubre la función de arquitectura aunque no sea su rol nominal.
+
+```avatar-lang
+@id: apendice-aportaciones-tecnicas
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

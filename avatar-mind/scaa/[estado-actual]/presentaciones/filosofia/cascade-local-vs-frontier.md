@@ -9,3 +9,15 @@ Reduce coste y latencia sin comprometer calidad donde importa. Y, más profundam
 ## Anécdotas que lo sostienen
 
 - [Akdong — migración 10 días enero](../historias/akdong-migracion-10-dias.md)
+
+```avatar-lang
+@id: cascade-local-vs-frontier
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

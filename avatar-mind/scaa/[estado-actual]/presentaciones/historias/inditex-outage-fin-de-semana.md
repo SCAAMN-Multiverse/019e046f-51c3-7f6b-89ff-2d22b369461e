@@ -8,3 +8,15 @@ Líder técnico en Inditex. Outage de jueves a lunes en la aplicación de empaqu
 - [Velocidad del cambio deshace cualquier armonía](../filosofia/velocidad-deshace-armonia.md)
 - [Realidad ingenieril — el aparato invisible](../filosofia/realidad-ingenieril-aparato-invisible.md)
 - [Analogía cloud antes de Istio](../filosofia/analogia-cloud-pre-istio.md)
+
+```avatar-lang
+@id: inditex-outage-fin-de-semana
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

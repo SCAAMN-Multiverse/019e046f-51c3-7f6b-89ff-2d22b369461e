@@ -15,3 +15,15 @@ Es la razón última por la que la respuesta no puede ser un manual ni un marco 
 
 - [W2M — Disputas: cambio de naturaleza del proyecto](../historias/w2m-disputas-cambio-naturaleza.md)
 - [Inditex — outage de fin de semana](../historias/inditex-outage-fin-de-semana.md)
+
+```avatar-lang
+@id: velocidad-deshace-armonia
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

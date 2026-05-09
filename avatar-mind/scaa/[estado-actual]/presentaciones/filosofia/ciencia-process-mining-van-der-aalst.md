@@ -11,3 +11,15 @@ Evolution-Art (paradigma del aparato) extiende esto a **verificación runtime co
 - [avatar-lang sirve para cualquier proceso](./avatar-lang-cualquier-proceso.md)
 - [Estados externos públicos, no internos](./estados-publicos-no-internos.md)
 - [Triada de ejecución](./triada-de-ejecucion.md)
+
+```avatar-lang
+@id: ciencia-process-mining-van-der-aalst
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

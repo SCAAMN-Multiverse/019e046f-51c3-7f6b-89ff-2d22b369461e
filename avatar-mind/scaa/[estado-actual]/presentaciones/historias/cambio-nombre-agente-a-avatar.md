@@ -9,3 +9,15 @@ Hito conceptual: el equipo deja de llamar "agente" a la pieza IA y empieza a lla
 - [Multi-avatar / multi-rol](../filosofia/multi-avatar-multi-rol.md)
 - [Estados públicos no internos](../filosofia/estados-publicos-no-internos.md)
 - [Analogía cloud antes de Istio](../filosofia/analogia-cloud-pre-istio.md)
+
+```avatar-lang
+@id: cambio-nombre-agente-a-avatar
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

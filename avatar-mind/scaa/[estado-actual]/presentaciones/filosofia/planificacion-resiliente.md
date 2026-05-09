@@ -14,3 +14,15 @@ Es la lección que PRINCE2 no captura: en la práctica no entras en mantenimient
 ## Anécdotas que lo sostienen
 
 - [W2M — Disputas: cambio de naturaleza del proyecto](../historias/w2m-disputas-cambio-naturaleza.md)
+
+```avatar-lang
+@id: planificacion-resiliente
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

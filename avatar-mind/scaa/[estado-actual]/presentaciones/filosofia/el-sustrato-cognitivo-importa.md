@@ -18,3 +18,15 @@ Es la razón por la que la IA cae con efectos distintos sobre profesionales dist
 - [W2M — Cherry-pick rescatado por compañero competente](../historias/w2m-cherry-pick-rescatado.md)
 - [Comunidad de Madrid — CMMI](../historias/comunidad-madrid-cmmi.md)
 - [BBVA — portfolio y trenes de release](../historias/bbva-portfolio-trenes-release.md)
+
+```avatar-lang
+@id: el-sustrato-cognitivo-importa
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

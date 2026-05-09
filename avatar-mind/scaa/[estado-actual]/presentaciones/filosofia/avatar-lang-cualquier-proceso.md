@@ -14,3 +14,15 @@ Permite expresar en la misma gramática: el ciclo de vida, las 13 comprobaciones
 
 - [Weft — DSL paralelo el 15 de abril](../historias/weft-15-abril-paralelo.md)
 - [Obsidian + Wikilinks — descubrimiento marzo](../historias/obsidian-wikilinks-marzo.md)
+
+```avatar-lang
+@id: avatar-lang-cualquier-proceso
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

@@ -11,3 +11,15 @@ Es **real solo para tareas que caben dentro de la ventana de contexto del LLM**:
 - [Realidad ingenieril — el aparato invisible](./realidad-ingenieril-aparato-invisible.md) (la contraparte)
 - [Las dos líneas — evolución vs degeneración](./dos-lineas-evolucion-vs-degeneracion.md)
 - [Del agente al avatar](./del-agente-al-avatar.md)
+
+```avatar-lang
+@id: ejercito-de-una-persona-ruido-viral
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

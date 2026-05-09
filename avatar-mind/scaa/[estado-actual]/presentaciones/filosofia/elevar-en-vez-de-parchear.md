@@ -10,3 +10,15 @@ Es la disciplina que llevó del SharePoint manual al avatar-lang formal: se pod�
 
 - [Obsidian + Wikilinks — descubrimiento marzo](../historias/obsidian-wikilinks-marzo.md)
 - [Akdong — migración 10 días enero](../historias/akdong-migracion-10-dias.md)
+
+```avatar-lang
+@id: elevar-en-vez-de-parchear
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

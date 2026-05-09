@@ -11,3 +11,15 @@ Un avatar no es un programa cerrado: es un sistema que se mantiene a sí mismo a
 - [Avatar autoconsciente](./avatar-autoconsciente.md)
 - [Estructura dinamicodependiente](./ciencia-estructura-dinamicodependiente.md)
 - [Velocidad deshace cualquier armonía](./velocidad-deshace-armonia.md)
+
+```avatar-lang
+@id: ciencia-autopoiesis-maturana-varela
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

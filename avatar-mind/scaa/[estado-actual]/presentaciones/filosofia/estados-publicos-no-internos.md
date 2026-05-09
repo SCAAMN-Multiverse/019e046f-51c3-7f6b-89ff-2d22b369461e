@@ -16,3 +16,15 @@ Es la lección directa de los años 2000 con FIPA-BDI: querían verificar creenc
 
 - [Cambio de nombre agente → avatar](../historias/cambio-nombre-agente-a-avatar.md)
 - [Weft — DSL paralelo el 15 de abril](../historias/weft-15-abril-paralelo.md)
+
+```avatar-lang
+@id: estados-publicos-no-internos
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

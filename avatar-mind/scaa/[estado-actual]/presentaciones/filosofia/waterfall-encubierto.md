@@ -9,3 +9,15 @@ Es la disfunción típica que vacía la promesa Scrum del "equipo que se gestion
 ## Anécdotas que lo sostienen
 
 - [Inditex — Scrum bien marcado, dinámica manda](../historias/inditex-scrum-dinamica-manda.md)
+
+```avatar-lang
+@id: waterfall-encubierto
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

@@ -65,3 +65,15 @@ Resumen: **[TENTATIVO — hereda del Punto 3]** Profundización del "por qué" a
 ---
 
 > **Cierre del Punto 3 — el problema está atacado**: los problemas de gestión enumerados en 3.1–3.8.1 no se quedan en diagnóstico. Hay casi **dos años de trabajo continuado** del equipo del humano en World2Meet dedicados específicamente a resolverlos, cuyo resultado es el aparato SCAAMN del Punto 6. Ver **6.1 (Génesis: dos años de trabajo en W2M)** para el contexto histórico y la tesis derivada (W2M es escenario perfecto porque su complejidad está concentrada en flujo de información, no en cadena física).
+
+```avatar-lang
+@id: doc-03-gestion-equipos-proyectos
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

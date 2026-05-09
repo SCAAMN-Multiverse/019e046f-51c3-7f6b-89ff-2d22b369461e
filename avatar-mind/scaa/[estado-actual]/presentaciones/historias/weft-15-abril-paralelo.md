@@ -7,3 +7,15 @@ El **15 de abril** el humano descubre la necesidad de un lenguaje formal para co
 - [Avatar-lang sirve para cualquier proceso](../filosofia/avatar-lang-cualquier-proceso.md)
 - [Estados públicos no internos](../filosofia/estados-publicos-no-internos.md)
 - [Menos es más](../filosofia/menos-es-mas.md)
+
+```avatar-lang
+@id: weft-15-abril-paralelo
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

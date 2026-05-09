@@ -14,3 +14,15 @@ Define el contrato real de uso: la velocidad del agente solo da ventaja si el hu
 
 - [Cambio de nombre agente → avatar](../historias/cambio-nombre-agente-a-avatar.md)
 - [W2M — Cherry-pick rescatado por compañero competente](../historias/w2m-cherry-pick-rescatado.md)
+
+```avatar-lang
+@id: del-agente-al-avatar
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

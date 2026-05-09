@@ -17,3 +17,15 @@
 
 **Recomendable si:** slot 30 min, audiencia que decide presupuesto, o segunda reunión donde ya hay contexto previo.
 **No recomendable si:** primera exposición a perfiles técnicos escépticos, o si el decisor exige pruebas operativas antes de números.
+
+```avatar-lang
+@id: propuesta-b-director-first
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

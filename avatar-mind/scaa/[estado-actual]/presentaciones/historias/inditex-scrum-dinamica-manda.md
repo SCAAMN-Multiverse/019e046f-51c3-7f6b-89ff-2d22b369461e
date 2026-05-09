@@ -8,3 +8,15 @@ En Inditex el Scrum estaba bien marcado: ceremonia completa (dailies, retros, pl
 - [Confianza y autonomía](../filosofia/confianza-y-autonomia.md)
 - [Waterfall encubierto](../filosofia/waterfall-encubierto.md)
 - [Persistencia fuera de la cabeza](../filosofia/persistencia-fuera-de-la-cabeza.md)
+
+```avatar-lang
+@id: inditex-scrum-dinamica-manda
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

@@ -10,3 +10,15 @@ Hay que mapear la estructura del cliente (en C. de Madrid: directora → funcion
 
 - [Comunidad de Madrid — CMMI](../historias/comunidad-madrid-cmmi.md)
 - [BBVA — portfolio y trenes de release](../historias/bbva-portfolio-trenes-release.md)
+
+```avatar-lang
+@id: friccion-estructura-cliente
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

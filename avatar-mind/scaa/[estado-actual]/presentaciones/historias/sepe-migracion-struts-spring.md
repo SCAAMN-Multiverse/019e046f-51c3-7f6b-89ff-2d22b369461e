@@ -6,3 +6,15 @@ Migración del SEPE de **Struts a Spring + Spring Webflow** (gestión mediante p
 
 - [Elevar en vez de parchear](../filosofia/elevar-en-vez-de-parchear.md)
 - [Analogía cloud antes de Istio](../filosofia/analogia-cloud-pre-istio.md)
+
+```avatar-lang
+@id: sepe-migracion-struts-spring
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

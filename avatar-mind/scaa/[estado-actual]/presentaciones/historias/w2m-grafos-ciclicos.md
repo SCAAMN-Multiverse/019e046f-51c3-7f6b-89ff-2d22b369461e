@@ -6,3 +6,15 @@ En las BBDD de W2M, los **hoteles tenían múltiples IDs en distintas plataforma
 
 - [Realidad ingenieril — el aparato invisible](../filosofia/realidad-ingenieril-aparato-invisible.md)
 - [Elevar en vez de parchear](../filosofia/elevar-en-vez-de-parchear.md)
+
+```avatar-lang
+@id: w2m-grafos-ciclicos
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

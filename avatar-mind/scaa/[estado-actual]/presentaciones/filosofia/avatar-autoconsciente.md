@@ -15,3 +15,15 @@ Es la única respuesta arquitectónica posible al hecho de que la velocidad del 
 
 - [Cambio de nombre agente → avatar](../historias/cambio-nombre-agente-a-avatar.md)
 - [Obsidian + Wikilinks — descubrimiento marzo](../historias/obsidian-wikilinks-marzo.md)
+
+```avatar-lang
+@id: avatar-autoconsciente
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

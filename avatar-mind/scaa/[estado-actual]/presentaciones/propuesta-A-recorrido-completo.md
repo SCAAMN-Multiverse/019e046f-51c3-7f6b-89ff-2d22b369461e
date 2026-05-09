@@ -22,3 +22,15 @@ A ver, de la propuesta, hay, o sea, lo que no me gusta en general de ninguna de 
 
 **Recomendable si:** audiencia técnica con tiempo, primera exposición al sistema, o decisión a 3+ meses vista.
 **No recomendable si:** comité ejecutivo, slot ≤30 min, o audiencia que ya conoce el problema y quiere la respuesta.
+
+```avatar-lang
+@id: propuesta-a-recorrido-completo
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

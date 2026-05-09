@@ -7,3 +7,15 @@ Cuando hay incidencia, el humano dice: "David, échale un vistazo". David entra 
 - [Persistencia fuera de la cabeza](../filosofia/persistencia-fuera-de-la-cabeza.md)
 - [Confianza y autonomía](../filosofia/confianza-y-autonomia.md)
 - [Sistema-operado como fuente de verdad](../filosofia/sistema-operado-fuente-de-verdad.md)
+
+```avatar-lang
+@id: w2m-david-diagnostico-sin-humano
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

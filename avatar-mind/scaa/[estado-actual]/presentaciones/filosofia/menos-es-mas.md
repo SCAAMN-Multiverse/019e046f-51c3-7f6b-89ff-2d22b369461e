@@ -9,3 +9,15 @@ Es el criterio gramatical de avatar-lang. Claude es extremadamente capaz dentro 
 ## Anécdotas que lo sostienen
 
 - [Lazy Context y MDs composables — descubrimiento](../historias/obsidian-wikilinks-marzo.md)
+
+```avatar-lang
+@id: menos-es-mas
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

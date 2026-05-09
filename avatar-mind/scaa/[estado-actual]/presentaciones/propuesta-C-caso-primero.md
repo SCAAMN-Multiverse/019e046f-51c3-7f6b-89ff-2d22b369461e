@@ -17,3 +17,15 @@
 
 **Recomendable si:** demo sólida disponible; audiencia técnica veterana o auditora; slot 30–40 min.
 **No recomendable si:** no hay demo en condiciones, slot <30 min, o decisor económico puro.
+
+```avatar-lang
+@id: propuesta-c-caso-primero
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

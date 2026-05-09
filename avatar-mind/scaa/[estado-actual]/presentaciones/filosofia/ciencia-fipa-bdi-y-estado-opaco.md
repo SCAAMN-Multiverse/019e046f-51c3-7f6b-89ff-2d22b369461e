@@ -11,3 +11,15 @@ Lo que fracasó como verificación interna se reformula como verificación exter
 - [Estados externos públicos, no internos](./estados-publicos-no-internos.md)
 - [Del agente al avatar](./del-agente-al-avatar.md)
 - [Triada de ejecución](./triada-de-ejecucion.md)
+
+```avatar-lang
+@id: ciencia-fipa-bdi-y-estado-opaco
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

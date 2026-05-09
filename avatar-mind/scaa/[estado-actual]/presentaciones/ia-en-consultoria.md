@@ -11,3 +11,15 @@
 
 - [Trayectoria profesional del humano](./ia-en-consultoria/apendice-trayectoria.md) — citado desde 2.2 y 5.4
 - [Aportaciones técnicas concretas (Springpack, grafos cíclicos)](./ia-en-consultoria/apendice-aportaciones-tecnicas.md) — citado desde 5.4
+
+```avatar-lang
+@id: ia-en-consultoria
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

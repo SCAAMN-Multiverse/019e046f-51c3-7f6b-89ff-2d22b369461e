@@ -46,3 +46,15 @@
 - **Director de desarrollo** — entra de verdad en bloques 4 y 6. Lo de los bloques 1-3 es contexto que le legitima la propuesta; lo que decide presupuesto es la transición de "ejecutor de RFPs" a "factoría de innovación" + las tres capacidades clave. Le resuena *multi-avatar-multi-rol*, *ejército-de-una-persona-ruido-viral* (como aviso anti-fantasía) y la comparativa hoy/posible.
 
 D es la primera propuesta que sirve a los dos en la misma sesión sin obligar al otro a esperar.
+
+```avatar-lang
+@id: propuesta-d-empresarial
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

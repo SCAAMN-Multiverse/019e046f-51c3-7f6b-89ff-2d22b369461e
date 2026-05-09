@@ -25,3 +25,15 @@ Resumen: Consecuencia práctica del fundamento (2.1) y del caso ilustrativo (2.2
 ## 2.5. Pendiente de detallar
 
 Resumen: [PLACEHOLDER] Detalle perfil-por-perfil de qué cambia exactamente: qué tareas se automatizan, qué valor diferencial muta, cómo se reposiciona cada rol. Llegará en bloques posteriores. Sección abierta para ir poblándola conforme lleguen.
+
+```avatar-lang
+@id: doc-02-perfiles-impacto-ia
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

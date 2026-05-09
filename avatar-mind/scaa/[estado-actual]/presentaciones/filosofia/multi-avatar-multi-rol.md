@@ -9,3 +9,15 @@ Replica la división de roles humana en consultoría sin perder coherencia: cada
 ## Anécdotas que lo sostienen
 
 - [Cambio de nombre agente → avatar](../historias/cambio-nombre-agente-a-avatar.md)
+
+```avatar-lang
+@id: multi-avatar-multi-rol
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

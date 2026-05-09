@@ -9,3 +9,15 @@ Disciplina toda la familia de comprobaciones del compilador `check-avatar-lang` 
 ## Anécdotas que lo sostienen
 
 - [W2M — Cherry-pick rescatado por compañero competente](../historias/w2m-cherry-pick-rescatado.md)
+
+```avatar-lang
+@id: soft-warning-no-corta
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

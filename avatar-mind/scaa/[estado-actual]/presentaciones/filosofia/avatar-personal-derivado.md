@@ -14,3 +14,15 @@ Es la pieza maestra del onboarding: reduce el tiempo a productividad de 6-8 sema
 ## Anécdotas que lo sostienen
 
 - [W2M — SharePoint tres iniciativas](../historias/w2m-sharepoint-tres-iniciativas.md)
+
+```avatar-lang
+@id: avatar-personal-derivado
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

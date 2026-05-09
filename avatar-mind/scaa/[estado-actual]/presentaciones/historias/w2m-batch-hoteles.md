@@ -6,3 +6,15 @@ World2Meet (agencia turística) maneja un volumen muy grande: **miles de proveed
 
 - [El sustrato cognitivo importa](../filosofia/el-sustrato-cognitivo-importa.md)
 - [Velocidad del cambio deshace cualquier armonía](../filosofia/velocidad-deshace-armonia.md)
+
+```avatar-lang
+@id: w2m-batch-hoteles
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```

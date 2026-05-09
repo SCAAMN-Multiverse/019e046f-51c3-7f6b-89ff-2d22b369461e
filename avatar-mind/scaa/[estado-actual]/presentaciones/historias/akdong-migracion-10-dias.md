@@ -9,3 +9,15 @@ Enero de 2025. Primer experimento serio del equipo con un agente moderno: migrac
 - [Triada de ejecución](../filosofia/triada-de-ejecucion.md)
 - [Cascade local-vs-frontier](../filosofia/cascade-local-vs-frontier.md)
 - [Elevar en vez de parchear](../filosofia/elevar-en-vez-de-parchear.md)
+
+```avatar-lang
+@id: akdong-migracion-10-dias
+state BORRADOR "En elaboración"
+state PUBLICADO terminal "Publicado en avatar-mind"
+action publicar: BORRADOR -> PUBLICADO {
+  title: "publicar"
+  description: "Documento registrado en avatar-mind"
+  requires: BORRADOR
+  produces: PUBLICADO
+}
+```
