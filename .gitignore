@@ -2,3 +2,5 @@ config.local.yaml
 .idea/
 .claude/settings.local.json
 .obsidian/workspace.json
+
+**/sessions/*.meta.json
