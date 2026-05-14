@@ -4,3 +4,6 @@ config.local.yaml
 .obsidian/workspace.json
 
 **/sessions/*.meta.json
+
+# Sesiones del multiverse-manager — artefactos volátiles per-máquina
+**/sessions/
