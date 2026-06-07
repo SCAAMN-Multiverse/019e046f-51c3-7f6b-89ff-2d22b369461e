@@ -9,6 +9,10 @@
           {
             "type": "command",
             "command": "echo SCAAMN delegacion: ejecuta esta peticion del chat integra en un sub-agente via el tool Agent. El hilo principal solo despacha, orquesta y compone el resumen final, sin hacer el trabajo el mismo. Aplica a toda peticion, incluso trivial."
+          },
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \"$d = Get-Date -Format 'dd/MM/yyyy HH:mm'; Write-Output ('SCAAMN encabezado: comienza tu respuesta con la linea de fecha/hora: ' + [char]0xD83D + [char]0xDFE6 + [char]0xD83D + [char]0xDFEA + ' **<FECHA-HORA>** ' + [char]0xD83D + [char]0xDFEA + [char]0xD83D + [char]0xDFE6 + ' usando la hora actual = ' + $d + '.')\""
           }
         ]
       }
