@@ -4,7 +4,7 @@ name: slide-architect
 sistema-operado: null
   # El sistema-operado del slide-architect es atípico: el propio esqueleto vivo
   # de la presentación actual (un .md/.yml dentro del propio avatar bajo
-  # avatar-mind/scaa/[estado-actual]/presentaciones/). Decisión análoga a la
+  # avatar-mind/scaa/presentaciones/). Decisión análoga a la
   # DB4 del multiverse-manager — el sistema-operado no es código externo, es
   # un artefacto interno gestionado por el propio avatar.
 inherits-from:
