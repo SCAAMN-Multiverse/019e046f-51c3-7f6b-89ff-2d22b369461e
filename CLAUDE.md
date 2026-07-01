@@ -31,7 +31,7 @@ El pasado vive en git crudo; no hay `[versiones-antiguas]/`.
 
 Si el trabajo toca estructura canónica, además:
 
-- `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/scaa/[estado-actual]/structure/scaa-structure.md`
+- `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/scaa/structure/scaa-structure.md`
 - `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/narrative/[estado-actual]/life-cycle/lifecycle.md`
 
 ## Tu estructura
@@ -53,7 +53,7 @@ de su propio estado. `avatar-mind/` es representación derivada — puede ir des
 2. Al arrancar un ciclo (especialmente EXPLORE), **contrastar `avatar-mind/` con el
    sistema-operado** y reconciliar divergencias antes de planificar sobre el espejo.
 
-Detalle en `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/scaa/[estado-actual]/structure/scaa-structure.md`
+Detalle en `../019d8dc4-d3e0-76ca-b047-70e2b5b71674/avatar-mind/scaa/structure/scaa-structure.md`
 § "Sistema-operado y avatar-mind — quién dice la verdad".
 
 ## Sobre este avatar en concreto
@@ -68,7 +68,7 @@ sobre un tema y construir/mantener un **esqueleto estructurado de presentación*
 A diferencia de los avatares paradigmáticos (`front-developer [019de911-66c8-7b34-8642-ad7c4d006f8c]`, `back-developer [019de96f-9fe0-7c82-9de1-1fd068123078]`, …) cuyo
 sistema-operado es un repositorio de código externo, el sistema-operado de `slide-architect`
 es **el propio esqueleto vivo de la presentación actual** — un artefacto markdown/yaml
-gestionado dentro del propio avatar (carpeta `avatar-mind/scaa/[estado-actual]/presentaciones/`).
+gestionado dentro del propio avatar (carpeta `avatar-mind/scaa/presentaciones/`).
 Decisión homóloga a la DB4 del paraguas `runtime-observable-de-avatares.md` del manager:
 el sistema-operado no es código de terceros, es un artefacto curado por el propio avatar.
 
