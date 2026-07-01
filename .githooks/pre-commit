@@ -24,7 +24,7 @@ ESSENCE_UID="019d8dc4-d3e0-76ca-b047-70e2b5b71674"
 dir="$(git rev-parse --show-toplevel)"
 while [ "$dir" != "/" ] && [ -n "$dir" ]; do
   if [ -d "$dir/scaamn-multiverse/$ESSENCE_UID" ]; then
-    check_dir="$dir/scaamn-multiverse/$ESSENCE_UID/avatar-mind/scaa/[estado-actual]/structure/data-structure"
+    check_dir="$dir/scaamn-multiverse/$ESSENCE_UID/avatar-mind/scaa/structure/data-structure"
     if [ ! -d "$check_dir" ]; then
       echo "✗ pre-commit: contenedor encontrado en $dir pero data-structure no existe en essence." >&2
       echo "   Ruta esperada: $check_dir" >&2
