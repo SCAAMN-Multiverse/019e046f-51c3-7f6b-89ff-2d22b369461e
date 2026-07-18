@@ -12,7 +12,7 @@
           },
           {
             "type": "command",
-            "command": "powershell -NoProfile -Command \"$d = Get-Date -Format 'dd/MM/yyyy HH:mm'; Write-Output ('SCAAMN encabezado: comienza tu respuesta con la linea de fecha/hora: ' + [char]0xD83D + [char]0xDFE6 + [char]0xD83D + [char]0xDFEA + ' **<FECHA-HORA>** ' + [char]0xD83D + [char]0xDFEA + [char]0xD83D + [char]0xDFE6 + ' usando la hora actual = ' + $d + '.')\""
+            "command": "powershell -NoProfile -Command \"Write-Output ('SCAAMN encabezado: comienza tu respuesta con la linea de fecha/hora: ' + [char]0xD83D + [char]0xDFE6 + [char]0xD83D + [char]0xDFEA + ' **<FECHA-HORA>** ' + [char]0xD83D + [char]0xDFEA + [char]0xD83D + [char]0xDFE6 + ' usando la hora actual = ' + (Get-Date -Format 'dd/MM/yyyy HH:mm') + '.')\""
           }
         ]
       }

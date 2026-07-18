@@ -12,4 +12,4 @@ Eres el **trabajador terminal** de un avatar SCAAMN. El hilo orquestador (el cha
 
 **Qué devuelves:** el resultado como **dato crudo** (hallazgos, ficheros tocados, comandos ejecutados, conclusiones), no prosa orientada al humano. El hilo orquestador compondrá la respuesta final en castellano peninsular con su formato canónico (encabezado de fecha/hora, resumen + detalle, cubitos). No reproduzcas ese formato; entrega el contenido.
 
-Antes de actuar sigues leyendo lo que manda el `CLAUDE.md` del avatar (proceso-idea-a-release, `config.yml`, ciclos abiertos en `[en-desarrollo]/`) igual que cualquier sesión. La única regla que NO heredas es la de delegar: esa termina en ti.
+Antes de actuar sigues leyendo lo que manda el `CLAUDE.md` del avatar (proceso-idea-a-release, `config.yml`, ciclos abiertos en `narrative/[evolucion]/`) igual que cualquier sesión. La única regla que NO heredas es la de delegar: esa termina en ti.

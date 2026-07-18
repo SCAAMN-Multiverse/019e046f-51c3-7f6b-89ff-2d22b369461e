@@ -2,9 +2,23 @@
 #
 # Pre-commit hook canónico de SCAAMN — corre `npm run check` global.
 #
-# Filosofía: soft-warning-no-corta. La detección de deterioro debe vivir en la
-# puerta natural del workflow (el commit), no en CHECK del próximo ciclo del
-# avatar (que puede tardar días o semanas).
+# Materializa la filosofía `soft-warning-no-corta` (essence narrative). OJO con
+# el nombre: NO significa "este hook es blando". Es la TESIS CONTRARIA — "un
+# soft-warning no corta → es inútil → si algo merece atención, que sea hard-fail".
+#
+# COMPORTAMIENTO — ES UN GATE DURO. El hook hace `exit $?` de `npm run check`:
+#   - ERRORES (avatar-lang malformado, uuid duplicado, refs huérfanas, etc.)
+#     → exit != 0 → BLOQUEAN el commit. Y deben bloquear: son deterioro real.
+#   - WARNINGS (p.ej. [regla 14] md de unidad sin bloque avatar-lang) → exit 0
+#     → NO cortan HOY. Son deuda histórica en migración; su destino canónico es
+#     hard-fail por defecto (vía --strict) una vez cerrada la deuda.
+# El check es GLOBAL: un error introducido por OTRO avatar bloquea TUS commits
+# hasta que se corrija. Excepción justificada (CI/CD, clone aislado, o error
+# preexistente ajeno que no puedes arreglar ahora): `git commit --no-verify`
+# dejando el motivo en el mensaje del commit. No debe ser hábito.
+#
+# La detección vive en la puerta natural del workflow (el commit), no en CHECK
+# del próximo ciclo del avatar (que puede tardar días o semanas).
 #
 # Mecánica (tras paso 3 del ciclo `essence-dentro-del-multiverso`, 2026-05-09):
 #   1. Sube por la jerarquía buscando contenedor con `scaamn-multiverse/<ESSENCE_UID>/`
